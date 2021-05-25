@@ -47,9 +47,8 @@ bool builder::executeCommand(const std::string& arguments) {
   auto cmake_path = boost::process::search_path("cmake");
 
   std::cout << std::endl
-            << std::endl
-            << "Executing command : " << std::endl
-            << arguments << std::endl
+            << std::endl<< "Executing command : " << std::endl
+            << "cmake " <<arguments << std::endl
             << std::endl;
 
   bp::child child(cmake_path.string() + " " + arguments,
