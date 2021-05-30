@@ -1,4 +1,4 @@
-// Copyright 2020 Your Name <your_email>
+// Copyright 2021 ivan <ikhonyak@gmail.com>
 #include <async++.h>
 
 #include <builder.hpp>
