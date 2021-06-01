@@ -1,4 +1,4 @@
-// Copyright 2021 ivan <ikhonyak@gmail.com>
+// Copyright 2021 ivan <roman.sekin.90@mail.ru>
 #include <boost/program_options.hpp>
 #include <builder.hpp>
 
